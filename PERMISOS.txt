@@ -1,0 +1,6 @@
+GRANT CREATE SESSION TO SYSTEM;
+COMMIT;
+GRANT create procedure, alter any procedure, drop any procedure, execute any procedure TO SYSTEM;
+COMMIT;
+GRANT ALL PRIVILEGES TO SYSTEM;
+COMMIT;
